@@ -1,36 +1,35 @@
 # modifications
 Started coding 
 activity_main.xml
-1    <?xml version="1.0" encoding="utf-8"?>
-2    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-3        xmlns:app="http://schemas.android.com/apk/res-auto"
-4        xmlns:tools="http://schemas.android.com/tools"
-5        android:layout_width="match_parent"
-6        android:layout_height="match_parent"
-7        android:orientation="vertical"
-8        android:layout_gravity="center"
-9        android:gravity="center"
-10       android:padding="18dp"
-11       tools:context=".MainActivity">
-12   
-13       <TextView
-14           android:layout_width="match_parent"
-15           android:layout_height="wrap_content"
-16           android:text="Login Form"
-17           android:textColor="@color/colorPrimary"
-18           android:textSize="20sp"
-19           android:textStyle="bold"
-20           android:gravity="center"/>
-21   
-22   
-23   
-24       <com.google.android.material.textfield.TextInputLayout
-25           android:id="@+id/text_input_email"
-26           android:layout_width="match_parent"
-27           android:layout_height="wrap_content"
-28           app:errorEnabled="true"
-29           android:layout_marginTop="50dp">
-30   
+ 1  <?xml version="1.0" encoding="utf-8"?>
+2   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 3      xmlns:app="http://schemas.android.com/apk/res-auto"
+ 4       xmlns:tools="http://schemas.android.com/tools"
+ 5       android:layout_width="match_parent"
+  6      android:layout_height="match_parent"
+ 7      android:orientation="vertical"
+ 8       android:layout_gravity="center"
+ 9      android:gravity="center"
+ 10      android:padding="18dp"
+ 11      tools:context=".MainActivity">
+   
+12       <TextView
+ 13          android:layout_width="match_parent"
+ 14          android:layout_height="wrap_content"
+ 15          android:text="Login Form"
+ 16          android:textColor="@color/colorPrimary"
+ 17          android:textSize="20sp"           android:textStyle="bold"
+ 18          android:gravity="center"/>
+   
+   
+   
+19      <com.google.android.material.textfield.TextInputLayout
+20           android:id="@+id/text_input_email"
+21           android:layout_width="match_parent"
+22           android:layout_height="wrap_content"
+23           app:errorEnabled="true"
+24          android:layout_marginTop="50dp">
+   
 31           <com.google.android.material.textfield.TextInputEditText
 32               android:layout_width="match_parent"
 33               android:layout_height="wrap_content"
